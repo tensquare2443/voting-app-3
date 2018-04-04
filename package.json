@@ -18,7 +18,6 @@
     "validator": "^9.2.0"
   },
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server/server.js",
     "client": "react-scripts start",
     "build": "react-scripts build",
